@@ -26,54 +26,12 @@ html {
   scroll-behavior: smooth;
 }
 
-html::-webkit-scrollbar {
-  width: 1rem;
-}
-
-html::-webkit-scrollbar-track {
-  background: #444;
-}
-
-html::-webkit-scrollbar-thumb {
-  background: var(--theme-color);
-  border-radius: 5rem;
-}
-
 body {
   background: #222;
 }
 
 section {
   padding: 2rem 9%;
-}
-
-.heading {
-  text-align: center;
-  padding-bottom: 2rem;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 4rem;
-}
-
-.heading span {
-  color: var(--theme-color);
-  text-transform: uppercase;
-}
-
-.btn {
-  margin-top: 1rem;
-  display: inline-block;
-  padding: 0.8rem 3rem;
-  font-size: 1.7rem;
-  border-radius: 0.5rem;
-  background: #666;
-  color: #fff;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.btn:hover {
-  background: var(--theme-color);
 }
 
 .header {
@@ -134,6 +92,23 @@ section {
   text-transform: uppercase;
 }
 
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  background: #666;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: var(--theme-color);
+}
+
 .home .home-slider .swiper-slide {
   overflow: hidden;
   border-radius: 0.5rem;
@@ -145,6 +120,19 @@ section {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.heading span {
+  color: var(--theme-color);
+  text-transform: uppercase;
 }
 
 .service .box-container {
@@ -463,6 +451,20 @@ section {
 .footer .credit span {
   color: var(--theme-color);
 }
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #444;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--theme-color);
+  border-radius: 5rem;
+}
+
 
 .theme-toggler {
   position: fixed;
